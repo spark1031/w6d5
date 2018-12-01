@@ -1,0 +1,95 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+  background: transparent;
+}
+
+.main-page {
+  background-image: url('https://wallpapercave.com/wp/zXBcfAG.jpg');
+}
+
+.clock {
+  font-family: 'Arvo', serif;
+  margin: 100px 10px 10px 20px;
+  font-size: 30px;
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.clock-inner {
+  width: 550px;
+  height: 94px;
+  border: 2px solid black;
+  background-color: pink;
+}
+
+.clock-inner label {
+  font-weight: bolder;
+  letter-spacing: 2px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  margin: 13px 20px 20px 20px;
+  font-size: 20px;
+}
+
+.tabs {
+  display: block;
+  font-family: 'Arvo', serif;
+  margin: 100px 10px 10px 20px;
+
+}
+
+.tab-title {
+  margin: 20px 10px 10px 20px;
+  font-size: 30px;
+}
+
+.tab-header {
+  width: 240px;
+  height: 30px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.tab-header li {
+  width: 65px;
+  border-top: 2px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 4px;
+  text-align: center;
+  cursor: pointer;
+  background-color: pink;
+  list-style: none;
+}
+
+.tab-main {
+  width: 199px;
+  height: 150px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 2px solid black;
+  background-color: pink;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
